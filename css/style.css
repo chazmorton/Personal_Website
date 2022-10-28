@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 24px; */
+
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    border-bottom: lightgray solid 1px;
+}
+
+.navbar h1 {
+    font-size: 28px;
+    margin-left: 24px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 24px;
+    margin-right: 110px;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .links a:hover {
+    font-weight: 900;
+}
+
+.socials {
+    display: flex;
+    gap: 14px;
+    margin-right: 24px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+}
+
+#align {
+    display: flex;
+    justify-content: center;
+}
