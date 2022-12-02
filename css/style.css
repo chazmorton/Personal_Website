@@ -5,6 +5,7 @@ body {
 
 .navbar {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     /* margin: 0px 24px; */
@@ -47,4 +48,140 @@ body {
 #align {
     display: flex;
     justify-content: center;
+}
+
+/* PAGE SPECIFIC (ABOUT.HTML) */
+
+.education {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.education h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.education h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.education h3 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 14px;
+    color: darkgray;
+}
+
+.education p {
+    font-size: 14px;
+    padding: 2px;
+    margin: 0;
+}
+
+.coursework {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: #e1e4e8;
+}
+
+.coursework h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.coursework-buttons {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+}
+
+.coursework button {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: darkslategrey;
+    background-color: white;
+    margin: 7px;
+}
+
+.experience {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;    
+}
+
+.experience h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.experience h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.experince p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.experience-description {
+    text-align: center;
+    width: 75%;
+}
+
+.skills {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: #e1e4e8;
+}
+
+.skills h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.skill-sections {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+}
+
+.skills-buttons {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.skills button {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: darkslategrey;
+    background-color: white;
+    margin: 3px;
 }
